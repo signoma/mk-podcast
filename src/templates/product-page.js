@@ -9,6 +9,7 @@ import Pricing from "../components/Pricing";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import FullWidthImage from "../components/FullWidthImage";
 
+
 // eslint-disable-next-line
 export const ProductPageTemplate = ({
   image,
