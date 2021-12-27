@@ -78,6 +78,14 @@ export default function BlogRoll() {
     <StaticQuery
       query={graphql`
         query BlogRollQuery {
+          file(relativePath: { eq: "coffee.png" }) {
+            childImageSharp {
+                      gatsbyImageData(
+                        width: 120
+                        quality: 100
+                        layout: CONSTRAINED
+                      )}
+        }
           allMarkdownRemark(
             sort: { order: DESC, fields: [frontmatter___date] }
             filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
