@@ -1,0 +1,16 @@
+# Ignore artifacts:
+.cache
+.dependabot
+.github
+.vscode
+.yarn
+node_modules
+public
+static
+scr/img
+gatsby-config.js
+gatsby-node.js
+
+# Ignore all:
+*.html
+*.md

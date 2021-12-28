@@ -6946,6 +6946,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-plugin-prettier@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "eslint-plugin-prettier@npm:4.0.0"
+  dependencies:
+    prettier-linter-helpers: ^1.0.0
+  peerDependencies:
+    eslint: ">=7.28.0"
+    prettier: ">=2.0.0"
+  peerDependenciesMeta:
+    eslint-config-prettier:
+      optional: true
+  checksum: 03d69177a3c21fa2229c7e427ce604429f0b20ab7f411e2e824912f572a207c7f5a41fd1f0a95b9b8afe121e291c1b1f1dc1d44c7aad4b0837487f9c19f5210d
+  languageName: node
+  linkType: hard
+
 "eslint-plugin-react-hooks@npm:^4.3.0":
   version: 4.3.0
   resolution: "eslint-plugin-react-hooks@npm:4.3.0"
@@ -7418,6 +7433,13 @@ __metadata:
   version: 3.1.3
   resolution: "fast-deep-equal@npm:3.1.3"
   checksum: e21a9d8d84f53493b6aa15efc9cfd53dd5b714a1f23f67fb5dc8f574af80df889b3bce25dc081887c6d25457cce704e636395333abad896ccdec03abaf1f3f9d
+  languageName: node
+  linkType: hard
+
+"fast-diff@npm:^1.1.2":
+  version: 1.2.0
+  resolution: "fast-diff@npm:1.2.0"
+  checksum: 1b5306eaa9e826564d9e5ffcd6ebd881eb5f770b3f977fcbf38f05c824e42172b53c79920e8429c54eb742ce15a0caf268b0fdd5b38f6de52234c4a8368131ae
   languageName: node
   linkType: hard
 
@@ -8298,38 +8320,6 @@ __metadata:
   checksum: 6ca190fdcfeb1b0ce17c1c3d38ac4b951f71adb7ec4ea110212de52dcb40006dc043775ed5bc8f4ee336c25a1d378ee0f2ba618163ed756e77ce75f97602993a
   languageName: node
   linkType: hard
-
-"gatsby-starter-netlify-cms@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "gatsby-starter-netlify-cms@workspace:."
-  dependencies:
-    bulma: ^0.9.0
-    gatsby: ^4.0.0
-    gatsby-plugin-image: ^2.0.0
-    gatsby-plugin-netlify: ^3.14.0
-    gatsby-plugin-netlify-cms: ^6.0.0
-    gatsby-plugin-purgecss: ^6.0.0
-    gatsby-plugin-react-helmet: ^5.0.0
-    gatsby-plugin-sass: ^5.0.0
-    gatsby-plugin-sharp: ^4.0.0
-    gatsby-remark-copy-linked-files: ^5.0.0
-    gatsby-remark-images: ^6.0.0
-    gatsby-remark-relative-images: ^2.0.2
-    gatsby-source-filesystem: ^4.0.0
-    gatsby-transformer-remark: ^5.0.0
-    gatsby-transformer-sharp: ^4.0.0
-    lodash: ^4.17.15
-    lodash-webpack-plugin: ^0.11.4
-    netlify-cms-app: ^2.15.62
-    prettier: ^2.0.5
-    prop-types: ^15.6.0
-    react: ^17.0.0
-    react-dom: ^17.0.0
-    react-helmet: ^6.0.0
-    sass: ^1.43.2
-    uuid: ^8.0.0
-  languageName: unknown
-  linkType: soft
 
 "gatsby-telemetry@npm:^3.4.0":
   version: 3.4.0
@@ -14003,6 +13993,39 @@ __metadata:
   languageName: node
   linkType: hard
 
+"podcast@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "podcast@workspace:."
+  dependencies:
+    bulma: ^0.9.0
+    eslint-plugin-prettier: ^4.0.0
+    gatsby: ^4.0.0
+    gatsby-plugin-image: ^2.0.0
+    gatsby-plugin-netlify: ^3.14.0
+    gatsby-plugin-netlify-cms: ^6.0.0
+    gatsby-plugin-purgecss: ^6.0.0
+    gatsby-plugin-react-helmet: ^5.0.0
+    gatsby-plugin-sass: ^5.0.0
+    gatsby-plugin-sharp: ^4.0.0
+    gatsby-remark-copy-linked-files: ^5.0.0
+    gatsby-remark-images: ^6.0.0
+    gatsby-remark-relative-images: ^2.0.2
+    gatsby-source-filesystem: ^4.0.0
+    gatsby-transformer-remark: ^5.0.0
+    gatsby-transformer-sharp: ^4.0.0
+    lodash: ^4.17.15
+    lodash-webpack-plugin: ^0.11.4
+    netlify-cms-app: ^2.15.62
+    prettier: ^2.0.5
+    prop-types: ^15.6.0
+    react: ^17.0.0
+    react-dom: ^17.0.0
+    react-helmet: ^6.0.0
+    sass: ^1.43.2
+    uuid: ^8.0.0
+  languageName: unknown
+  linkType: soft
+
 "posix-character-classes@npm:^0.1.0":
   version: 0.1.1
   resolution: "posix-character-classes@npm:0.1.1"
@@ -14480,6 +14503,15 @@ __metadata:
   version: 2.0.0
   resolution: "prepend-http@npm:2.0.0"
   checksum: 7694a9525405447662c1ffd352fcb41b6410c705b739b6f4e3a3e21cf5fdede8377890088e8934436b8b17ba55365a615f153960f30877bf0d0392f9e93503ea
+  languageName: node
+  linkType: hard
+
+"prettier-linter-helpers@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "prettier-linter-helpers@npm:1.0.0"
+  dependencies:
+    fast-diff: ^1.1.2
+  checksum: 00ce8011cf6430158d27f9c92cfea0a7699405633f7f1d4a45f07e21bf78e99895911cbcdc3853db3a824201a7c745bd49bfea8abd5fb9883e765a90f74f8392
   languageName: node
   linkType: hard
 
